@@ -1,0 +1,74 @@
+:root {
+    --main-white: hsl(0, 0%, 100%);
+    --slate-light: hsl(212, 45%, 89%);
+    --slate-regular: hsl(216, 15%, 48%);
+    --slate-dark: hsl(218, 44%, 22%);
+
+    --main-font: 'Outfit', sans-serif;
+    --main-font-reg-weight: 400;
+    --main-font-bold-weight: 700;
+
+}
+
+
+.body   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--slate-light);
+}
+
+
+.card-container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background-color: var(--main-white);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.img-container img {
+    width: 315px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-family: var(--main-font);
+    font-weight: var(--main-font-bold-weight);
+    font-size: 1.5rem;
+    color: var(--slate-regular);
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--main-font);
+    font-weight: var(--main-font-reg-weight);
+    font-size: 1rem;
+    color: var(--slate-regular);
+    margin: 10px 0;
+    padding: 0 20px;
+    text-align: center;
+
+}
+
+

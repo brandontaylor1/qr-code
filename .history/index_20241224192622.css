@@ -1,0 +1,25 @@
+:root {
+    --main-white: hsl(0, 0%, 100%);
+    --slate-light: hsl(212, 45%, 89%);
+    --slate-regular: hsl(216, 15%, 48%);
+    --slate-dark: hsl(218, 44%, 22%);
+
+    --main-font: 'Outfit', sans-serif;
+    --main-font-reg-weight: 400;
+    --main-font-bold-weight: 700;
+
+}
+
+
+.body   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    
+}
+
